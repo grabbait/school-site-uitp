@@ -1,0 +1,42 @@
+<!doctype html><html lang="uk"><head><meta charset="utf-8"><title>Ліцей №4 — дизайн-макет</title>
+<style>
+:root{--blue:#1f4e8c;--sky:#e8f0fb;--gold:#f2b632;--ink:#1d2433;--muted:#5b6476}
+*{box-sizing:border-box}body{margin:0;font-family:'Segoe UI',Arial,sans-serif;color:var(--ink);background:#fff}
+.wrap{width:1200px;margin:0 auto;padding:0 20px}
+.topbar{background:var(--blue);color:#fff;font-size:13px}.topbar .wrap{display:flex;justify-content:space-between;padding:7px 20px}
+header .wrap{display:flex;align-items:center;gap:18px;height:96px}
+.logo{width:64px;height:64px;border-radius:50%;background:var(--blue);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:26px;border:4px solid var(--gold)}
+.name b{font-size:22px;display:block}.name span{color:var(--muted)}
+.search{margin-left:auto;border:1px solid #cfd6e3;border-radius:22px;padding:10px 16px;width:280px;color:var(--muted)}
+.login{background:var(--gold);color:var(--ink);border-radius:22px;padding:10px 20px;font-weight:700}
+nav{background:var(--sky)}nav .wrap{display:flex}nav a{padding:14px 18px;font-weight:600;color:var(--ink)}nav a.cur{color:var(--blue);box-shadow:inset 0 -3px var(--blue)}
+.hero{height:400px;background:linear-gradient(90deg,rgba(31,78,140,.92),rgba(31,78,140,.55)),repeating-linear-gradient(45deg,#7fa3d6 0 20px,#6a92cc 20px 40px);color:#fff}
+.hero .wrap{padding-top:60px}.hero h1{font-size:38px;margin:0 0 10px;max-width:640px}.hero p{font-size:17px;max-width:560px;opacity:.95}
+.cta{display:inline-block;margin-top:14px;background:var(--gold);color:var(--ink);padding:12px 22px;border-radius:24px;font-weight:700;margin-right:10px}.cta.o{background:transparent;color:#fff;border:2px solid #fff}
+.quick{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-40px}
+.q{background:#fff;border-radius:12px;box-shadow:0 6px 18px rgba(20,40,80,.15);padding:18px;font-weight:700}.q small{display:block;color:var(--muted);font-weight:400;margin-top:4px}
+.q i{display:inline-block;width:34px;height:34px;border-radius:8px;background:var(--sky);color:var(--blue);text-align:center;line-height:34px;font-style:normal;margin-bottom:8px}
+h2{font-size:24px;margin:34px 0 14px}.cols{display:grid;grid-template-columns:2fr 1fr;gap:28px}
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid #e1e6ef;border-radius:10px;overflow:hidden}
+.ph{height:120px}.card div{padding:12px}.card b{display:block;margin:6px 0}.tag{font-size:12px;color:var(--blue);font-weight:700}.date{font-size:12px;color:var(--muted)}
+.ann{background:var(--sky);border-radius:10px;padding:14px}.ann p{margin:0 0 12px;padding-bottom:12px;border-bottom:1px solid #cfd9ea}.ann p:last-child{border:0;margin:0;padding:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.stat{border-left:4px solid var(--gold);padding:8px 14px}.stat b{font-size:28px;color:var(--blue);display:block}
+footer{background:var(--ink);color:#c9d1e0;margin-top:36px;padding:26px 0;font-size:14px}footer .wrap{display:flex;gap:60px}footer b{color:#fff}
+</style></head><body>
+<div class="topbar"><div class="wrap"><span>📍 вул. Шкільна, 4, м. Київ · ☎ (044) 000-00-00 · ✉ info@lyceum4.kyiv.ua</span><span>Facebook · Instagram · YouTube</span></div></div>
+<header><div class="wrap"><div class="logo">4</div><div class="name"><b>Ліцей №4 м. Києва</b><span>Заклад загальної середньої освіти І–ІІІ ступенів</span></div>
+<div class="search">🔍 Пошук по сайту</div><div class="login">Увійти</div></div></header>
+<nav><div class="wrap"><a class="cur">Головна</a><a>Про школу</a><a>Новини</a><a>Освітній процес</a><a>Учням</a><a>Батькам</a><a>Галерея</a><a>Контакти</a></div></nav>
+<section class="hero"><div class="wrap"><h1>Відкрито прийом заяв до 1 класу на 2027/2028 навчальний рік</h1><p>Подайте заяву онлайн — без черг і паперів. Співбесіди з батьками стартують у березні.</p>
+<span class="cta">Подати заяву</span><span class="cta o">Детальніше</span></div></section>
+<div class="wrap"><div class="quick">
+<div class="q"><i>📅</i><br>Розклад уроків<small>для кожного класу</small></div><div class="q"><i>📘</i><br>Е-щоденник<small>оцінки та домашні завдання</small></div>
+<div class="q"><i>🏫</i><br>Дистанційне навчання<small>посилання на уроки</small></div><div class="q"><i>🍎</i><br>Харчування<small>меню на тиждень</small></div></div>
+<div class="cols"><div><h2>Новини</h2><div class="news">
+<div class="card"><div class="ph" style="background:#c7d8f0"></div><div><span class="tag">Олімпіади</span><b>Учні 10-А — переможці міської олімпіади з математики</b><span class="date">12.11.2026</span></div></div>
+<div class="card"><div class="ph" style="background:#f6dfa5"></div><div><span class="tag">Події</span><b>День відкритих дверей для майбутніх першокласників</b><span class="date">10.11.2026</span></div></div>
+<div class="card"><div class="ph" style="background:#cfe8d5"></div><div><span class="tag">Спорт</span><b>Збірна ліцею з волейболу — друге місце в районі</b><span class="date">07.11.2026</span></div></div></div></div>
+<div><h2>Оголошення</h2><div class="ann"><p><b>17.11</b> — батьківські збори 1–4 класів о 18:00</p><p><b>20.11</b> — зміни в розкладі 9-х класів</p><p><b>25.11</b> — пробне НМТ для 11 класів</p></div></div></div>
+<h2>Ліцей у цифрах</h2><div class="stats"><div class="stat"><b>850</b>учнів</div><div class="stat"><b>72</b>вчителі</div><div class="stat"><b>1965</b>рік заснування</div><div class="stat"><b>3</b>профілі навчання</div></div></div>
+<footer><div class="wrap"><div><b>Ліцей №4 м. Києва</b><br>вул. Шкільна, 4<br>(044) 000-00-00</div><div><b>Розділи</b><br>Про школу · Новини · Розклад · Контакти</div><div><b>Мапа сайту</b><br>Політика конфіденційності</div></div></footer>
+</body></html>
